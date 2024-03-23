@@ -1,0 +1,54 @@
+<!-- Based on In Class Notes on Fragments -->
+<!-- Fragment for Start tab -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="15dp"
+            android:text="Input Type" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerInputType"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="5dp"
+            android:entries="@array/input_type"
+            android:focusable="false"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="15dp"
+            android:text="Activity Type" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerActivityType"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="5dp"
+            android:entries="@array/activity_type"
+            android:focusable="false"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnStartEntry"
+            android:layout_marginVertical="150dp"
+            android:layout_marginHorizontal="15dp"
+            android:text="Start"/>
+
+    </LinearLayout>
+
+</ScrollView>

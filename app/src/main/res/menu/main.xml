@@ -1,0 +1,14 @@
+
+<!--  Menu Bar, including more options with Settings -->
+<!--  Referred to Android Developer (https://developer.android.com/develop/ui/views/components/menus) -->
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Settings"
+        app:showAsAction="never"
+        android:icon="@drawable/settings"/>
+</menu>

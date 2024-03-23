@@ -1,0 +1,37 @@
+<!-- String Names for Display and Buttons -->
+<resources>
+    <string name="app_name">MyRun5</string>
+    <string name="name_input">Your Name</string>
+    <string name="email_input">Your Email</string>
+    <string name="phone_number_input">Your Phone Number</string>
+    <string name="class_input">eg. 2012</string>
+    <string name="major_input">Your Major</string>
+
+    <string name="change">Change</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <!--Settings Fragment-->
+    <string name="metric">Metric (Kilometers)</string>
+    <string name="imperial">Imperial (Miles)</string>
+
+    <!--Start Fragment-->
+    <string name="manual_entry">Manual Entry</string>
+    <string name="gps">GPS</string>
+    <string name="automatic">Automatic</string>
+
+    <string name="running">Running</string>
+    <string name="walking">Walking</string>
+    <string name="standing">Standing</string>
+    <string name="cycling">Cycling</string>
+    <string name="hiking">Hiking</string>
+    <string name="downhill_skiing">Downhill Skiing</string>
+    <string name="cross_country_skiing">Cross-Country Skiing</string>
+    <string name="snowboarding">Snowboarding</string>
+    <string name="skating">Skating</string>
+    <string name="swimming">Swimming</string>
+    <string name="mountain_biking">Mountain Biking</string>
+    <string name="wheelchair">Wheelchair</string>
+    <string name="elliptical">Elliptical</string>
+    <string name="other">Other</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="unit_labels">
+        <item>@string/metric</item>
+        <item>@string/imperial</item>
+    </array>
+
+    <array name="input_type">
+        <item>@string/manual_entry</item>
+        <item>@string/gps</item>
+        <item>@string/automatic</item>
+    </array>
+
+    <array name="activity_type">
+        <item>@string/running</item>
+        <item>@string/walking</item>
+        <item>@string/standing</item>
+        <item>@string/cycling</item>
+        <item>@string/downhill_skiing</item>
+        <item>@string/cross_country_skiing</item>
+        <item>@string/snowboarding</item>
+        <item>@string/skating</item>
+        <item>@string/swimming</item>
+        <item>@string/mountain_biking</item>
+        <item>@string/wheelchair</item>
+        <item>@string/elliptical</item>
+        <item>@string/other</item>
+    </array>
+
+</resources>
